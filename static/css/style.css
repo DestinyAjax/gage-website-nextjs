@@ -63,3 +63,363 @@ body {
   letter-spacing: -0.02em;
   color: #888888;;
 }
+
+/**** NAVBAR STYLING ******/
+.navbar-nav {
+      flex-direction: row;
+  }
+
+  .nav-link {
+      padding-right: .5rem !important;
+      padding-left: .5rem !important;
+  }
+
+  ml-auto .dropdown-menu {
+      left: auto !important;
+      right: 0px;
+  }
+
+  #nav .logo {
+      width: 120px;
+  }
+  
+  #nav {
+      padding: 20px;
+      color: #053E5F;
+      font-style: normal;
+      line-height: normal;
+      font-size: 14px;
+      letter-spacing: -0.01em;
+      background-color: white;
+  }
+  
+  #nav .sign-up {
+      width: 130px;
+      background-color: unset;
+      border: 1px solid #06C2CE;
+      color: #053E5F;
+      margin-right: 20px;
+      border-radius: 7px;
+      margin-bottom: 10px;
+  }
+  
+  #nav .signin {
+      width: 130px;
+      background-color: #06C2CE;
+      color: white;
+      border: 0px;
+      border-radius: 7px;
+      border: 0px;
+      opacity: 0.6;
+  }
+  
+  #nav .signin:hover {
+      opacity: 1;
+  }
+  
+  .r-mr-nav {
+      margin-right: 30px;
+  }
+  
+  .nav-button {
+      width: 150px;
+  }
+  
+  @media screen and (min-width: 601px) {
+      #nav .navbar-nav {
+      
+      }
+  }
+  
+  @media screen and (max-width: 600px) {
+      #nav .navbar-nav {
+      padding: 30px;
+      text-align: center;
+      }
+  }
+  
+  #nav .navbar-brand img {
+      padding-top: 3px;
+  }
+  
+  #nav li a {
+      color: #223D68;
+      font-weight: 600;
+  }
+  
+  .mobile-nav {
+      width: auto;
+      padding: 20px;
+  }
+  
+  .mobile-nav h5 {
+      letter-spacing: -0.01em;
+      color: #223D68;
+      font-size: 14px;
+      margin-bottom: 20px;
+  }
+  
+  .mobile-nav span {
+      display: block;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      font-size: 13px;
+  }
+  
+  .b-dropdown-menu {
+      width: auto;
+      padding: 20px;
+  }
+  
+  .b-dropdown-menu h5, .b-dropdown-menu h6 {
+      letter-spacing: -0.01em;
+      color: #223D68;
+      font-size: 13px;
+  }
+  
+  .b-dropdown-menu h5 a:hover {
+      text-decoration: none;
+  }
+  
+  .b-dropdown-menu h6 a:hover {
+      text-decoration: none;
+  }
+  
+  .b-dropdown-menu p {
+      margin-bottom: 30px;
+      font-size: 15px;
+  }
+  
+  .b-dropdown-menu span {
+      display: block;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      font-size: 13px;
+  }
+  
+  .support-dropdown {
+      width: 200px;
+      padding: 20px;
+  }
+  
+  .support-dropdown a {
+      margin-bottom: 15px;
+      letter-spacing: -0.01em;
+      color: #223D68;
+      font-size: 14px;
+  }
+  
+  .support-dropdown a:hover {
+      text-decoration: none;
+  }
+
+
+  /********** HOME PAGE STYLING ***********/
+.top-content {
+    padding-left: 60px;
+    padding-right: 100px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+  }
+  
+  @media screen and (min-width: 601px) {
+    .slider #s0 {
+      background-image: url(/static/images/home-header.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 20px;
+    }
+  }
+  
+  .slider {
+    margin-top: 80px;
+    background-image: url(/static/images/home-header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .slider h3 {
+    color: #06C2CE;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  .slider h1 {
+    font-size: 33px;
+    margin-bottom: 30px;
+    color: #053E5F;
+    text-weight: 600;
+  }
+  
+  .slider button {
+    background-color: #06C2CE;
+    color: white;
+    border: 0px;
+    border-radius: 7px;
+    padding: 10px 30px 10px 30px;
+  }
+
+  .section-2 {
+    padding: 20px 80px 0px 80px;
+    background-color: #0ca9b0;
+  }
+
+  .section-4 {
+    padding: 20px 80px 0px 80px;
+    background-color: #ECF0F1;
+  }
+
+  .section-5 {
+    padding: 20px 80px 0px 80px;
+    background-color: white;
+  }
+
+  .section-5 h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #0ca9b0;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .section-5 p {
+    color: grey;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .section-5 .col-md-4 {
+    margin-bottom: 20px;
+  }
+
+  .section-5 .col-md-4 img {
+    width: 330px;
+  }
+  
+  .section-2 ul {
+    padding-left: 0;
+    
+  }
+  
+  .section-2 ul li {
+    list-style-type: none;
+    font-size: 30px;
+    line-height: 40px;
+    color: #252a60;
+  }
+  
+  .section-2 ul li i {
+    color: white;
+    font-size: 15px;
+  }
+  
+  .section-2 .background {
+    background-image: url(/static/images/home-img2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .section-2 .background div {
+      padding: 160px;
+  }
+
+  .section-4 .background div {
+    padding: 160px;
+  }
+
+  .section-4 .background {
+    background-image: url(/static/images/africa-map-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .section-4 p {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #0ca9b0;
+  }
+
+  .section-4 button, .section-5 button {
+    background-color: #06C2CE;
+    color: white;
+    border: 0px;
+    border-radius: 7px;
+    border: 0px;
+    opacity: 0.6;
+  }
+
+  .section-4 input {
+    width: 90%;
+    height: 60px;
+    padding: 15px;
+    font-size: 20px;
+  }
+
+
+  .r-h1 {
+    font-size: 30px;
+    color: #252a60;
+    margin-bottom: 30px;
+    letter-spacing: 0.04em;
+    font-weight: 600;
+  }
+
+  .r-p {
+      font-size: 25px;
+      text-transform: uppercase;
+      color: white;
+  }
+  
+  .section-2 .content, .section-4 .content {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    padding-right: 20px;
+    padding-left: 50px;
+    text-align: left;
+  }
+
+  .covered {
+    background-color: white;
+    padding-top: 35px;
+    padding-bottom: 30px;
+  }
+  
+  .covered h1 {
+    font-weight: 600;
+    line-height: 40px;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #0ca9b0;
+    text-align: center;
+    margin-bottom: 90px;
+  }
+  
+  .covered h2 {
+    font-weight: 600;
+    line-height: 23px;
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    color: #0ca9b0;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  
+  .covered img {
+    margin-bottom: 10px;
+    width: 132px;
+    height: 122px;
+  }
+  
+  .covered .card p {
+    line-height: 26px;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    color: #6F7E83;
+  }
+
+  .covered .card  {
+    text-align: center;
+    border: 0px;
+  }

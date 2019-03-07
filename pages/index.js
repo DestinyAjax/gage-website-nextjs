@@ -79,155 +79,55 @@ const Index = () => {
                         </div>
                     </div>
                 </section>
+                <section className="section-4">
+                    <div className="container-fluid">
+                        <div className="row">
+                            <div className="col-md-6 col-xs-12 col-sm-12 content">
+                                <p className="r-p">Let's make public servants serve the public</p>
+                                <h1 className="r-h1">774 local government, 36 states<br/> and 1 federal government</h1>
+                                <div className="form-group">
+                                  <input className="form-control" type="text" placeholder="Search for your government" />
+                                </div><br/>
+                                <div className="form-group">
+                                  <button className="btn btn-lg br-button" type="button">Find your government</button>
+                                </div>
+                            </div>
+                            <div className="col-md-6 col-xs-12 col-sm-12 background"><div></div></div>
+                        </div>
+                    </div>
+                </section>
+                <section className="section-5">
+                  <h1 className="r-p">Stories</h1>
+                  <p className="text-center">Building Govgage was not a walt in the park. Launching was even <br/>harder. Read stories from our journey in creating a platform for<br/>
+                  citizens tol hold government accountable.</p><br/>
+                  <div className="container">
+                    <div className="row text-center">
+                      <div className="col-md-4 col-xs-12 col-sm-12">
+                        <div className="col-md-12 col-xs-12 col-sm-12">
+                          <img src="/static/images/home-img3.png" className="rounded"/>
+                        </div>
+                      </div>
+                      <div className="col-md-4 col-xs-12 col-sm-12" >
+                        <div className="col-md-12 col-xs-12 col-sm-12">
+                          <img src="/static/images/home-img4.png" className="rounded" />
+                        </div>
+                      </div>
+                      <div className="col-md-4 col-xs-12 col-sm-12">
+                        <div className="col-md-12 col-xs-12 col-sm-12">
+                          <img src="/static/images/home-img2.png" className="rounded"/>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="col-md-12 col-xs-12 col-sm-12">
+                        <a href="#" target="_blank">
+                          <button className="btn btn-primary">See more stories</button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </section>
             </Layout>
-            <style jsx>{`
-            .top-content {
-                padding-left: 60px;
-                padding-right: 100px;
-                padding-top: 130px;
-                padding-bottom: 130px;
-              }
-              
-              @media screen and (min-width: 601px) {
-                .slider #s0 {
-                  background-image: url(/static/images/home-header.png);
-                  background-size: cover;
-                  background-repeat: no-repeat;
-                  padding: 20px;
-                }
-              }
-              
-              .slider {
-                margin-top: 80px;
-                background-image: url(/static/images/home-header.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-              }
-              
-              .slider h3 {
-                color: #06C2CE;
-                font-size: 18px;
-                text-transform: uppercase;
-              }
-              
-              .slider h1 {
-                font-size: 33px;
-                margin-bottom: 30px;
-                color: #053E5F;
-                text-weight: 600;
-              }
-              
-              .slider button {
-                background-color: #06C2CE;
-                color: white;
-                border: 0px;
-                border-radius: 7px;
-                padding: 10px 30px 10px 30px;
-              }
-
-              .section-2 {
-                padding: 20px 80px 0px 80px;
-                background-color: #0ca9b0;
-              }
-              
-              .section-2 ul {
-                padding-left: 0;
-                
-              }
-              
-              .section-2 ul li {
-                list-style-type: none;
-                font-size: 30px;
-                line-height: 40px;
-                color: #252a60;
-              }
-              
-              .section-2 ul li i {
-                color: white;
-                font-size: 15px;
-              }
-              
-              .section-2 .background {
-                background-image: url(/static/images/home-img2.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-              }
-
-              .section-2 .background div {
-                  padding: 160px;
-              }
-              
-              .r-h1 {
-                font-size: 30px;
-                color: #252a60;
-                margin-bottom: 30px;
-                letter-spacing: 0.04em;
-                font-weight: 600;
-              }
-
-              .r-p {
-                  font-size: 25px;
-                  text-transform: uppercase;
-                  color: white;
-              }
-              
-              .section-2 .content {
-                padding-top: 100px;
-                padding-bottom: 150px;
-                padding-right: 20px;
-                padding-left: 50px;
-                text-align: left;
-              }
-
-              .covered {
-                background-color: white;
-                padding-top: 35px;
-                padding-bottom: 30px;
-              }
-              
-              .covered h1 {
-                font-style: normal;
-                font-weight: 600;
-                line-height: 40px;
-                font-size: 22px;
-                text-transform: uppercase;
-                letter-spacing: 0.04em;
-                color: #0ca9b0;
-                text-align: center;
-                margin-bottom: 90px;
-              }
-              
-              .covered h2 {
-                font-style: normal;
-                font-weight: 600;
-                line-height: 23px;
-                font-size: 20px;
-                letter-spacing: -0.01em;
-                color: #0ca9b0;
-                margin-bottom: 15px;
-                text-transform: uppercase;
-              }
-              
-              .covered img {
-                margin-bottom: 10px;
-                width: 132px;
-                height: 122px;
-              }
-              
-              .covered .card p {
-                font-family: Overpass;
-                font-style: normal;
-                line-height: 26px;
-                font-size: 16px;
-                letter-spacing: 0.01em;
-                color: #6F7E83;
-              }
-
-              .covered .card  {
-                text-align: center;
-                border: 0px;
-              }
-            `}</style>
         </div>
     );
 }
