@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 
 const Index = () => {
     return (
-        <div>
+        <div id="home-page">
             <Layout>
                 <section className="slider">
                     <div className="container-fluid">

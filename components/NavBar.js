@@ -6,7 +6,7 @@ const NavBar = () => {
         <div>
         <nav id="nav" className="navbar navbar-expand-lg fixed-top">
             <div className="container-fluid">
-                <a className="navbar-brand"><img className="logo" src="/static/images/gage-logo.png" /></a>
+                <a className="navbar-brand" href="/"><img className="logo" src="/static/images/gage-logo.png" /></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i className="fa fa-bars"></i>
                 </button>
@@ -47,10 +47,10 @@ const NavBar = () => {
                             <a href="/contact-us" className="r-mr-nav nav-link">Say Hi</a>
                         </li>
                         <li className="nav-item">
-                            <a href="#"><button className="btn sign-up">Sign Up</button></a>
+                            <a href="/signup"><button className="btn sign-up">Sign Up</button></a>
                         </li>
                         <li className="nav-item">
-                            <a href="#"><button className="btn signin">Login</button></a>
+                            <a href="/signin"><button className="btn signin">Login</button></a>
                         </li>
                     </ul>
                 </div>

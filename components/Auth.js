@@ -1,13 +1,10 @@
 import Head from 'next/head'
-import NavBar from './NavBar'
-import FooterLink from './FooterLink'
-import Reminder from './Reminder'
 
-const Layout = (props) => {
+const Auth = (props) => {
     return (
         <div>
             <Head>
-                <title>Gage - A Citizen Engagement Tool for Africa</title>
+                <title>Gage - Sign Up</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <link href="/static/css/bootstrap.min.css" rel="stylesheet"/>
                 <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet"/>
@@ -18,15 +15,10 @@ const Layout = (props) => {
                 <link href="/static/css/utilities.css" rel="stylesheet"/>
             </Head>
             <div>
-                <NavBar />
-                <div>
-                    {props.children}
-                </div>
-                <Reminder />
-                <FooterLink />
+                {props.children}
             </div> 
         </div>
     );
 }
 
-export default Layout;
+export default Auth;
