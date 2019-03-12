@@ -47,10 +47,10 @@ const NavBar = () => {
                             <a href="/contact-us" className="r-mr-nav nav-link">Say Hi</a>
                         </li>
                         <li className="nav-item">
-                            <a href="#"><button className="btn sign-up">Sign Up</button></a>
+                            <a href="/signup"><button className="btn sign-up">Sign Up</button></a>
                         </li>
                         <li className="nav-item">
-                            <a href="#"><button className="btn signin">Login</button></a>
+                            <a href="/signin"><button className="btn signin">Login</button></a>
                         </li>
                     </ul>
                 </div>

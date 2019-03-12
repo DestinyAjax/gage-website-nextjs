@@ -10,10 +10,8 @@ const FooterLink = () => (
                 <div className="col-md-2 col-xs-12 col-sm-12">
                     <h3>About</h3>
                     <p>
-                        <a href="/why-rem-health">Company</a><br/>
+                        <a href="/company">Company</a><br/>
                         <a href="/">Career</a><br/>
-                        <a href="/">Media Kit</a><br/>
-                        <a href="/">Brand Kit</a><br/>
                     </p>
                 </div>
                 <div className="col-md-2 col-xs-12 col-sm-12">
@@ -22,7 +20,6 @@ const FooterLink = () => (
                         <a href="/remind-me">Blog</a><br/>
                         <a href="/rem-id">Annual Report</a><br/>
                         <a href="/rem-tracka">Impact Report</a><br/>
-                        <a href="/rem-supply-chain">Access GovData</a>
                     </p>
                 </div>
                 <div className="col-md-2 col-xs-12 col-sm-12">
@@ -30,14 +27,13 @@ const FooterLink = () => (
                     <p>
                         <a href="/company">Why Gage</a><br/> 
                         <a href="/career">Pricing</a><br/>
-                        <a href="/in-the-news">Sign In</a><br/>
-                        <a href="/contact-us">Sign Up</a><br/>
+                        <a href="/signin">Sign In</a><br/>
+                        <a href="/signup">Sign Up</a><br/>
                     </p>
                 </div>
                 <div className="col-md-3 col-xs-12 col-sm-12">
                     <h3>Support</h3>
                     <p>
-                        <a href="/in-the-news">Help Desk</a><br/>
                         <a href="/contact-us">Contact Us</a><br/>
                     </p>
                 </div>

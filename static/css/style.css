@@ -418,3 +418,65 @@ body {
     background-repeat: no-repeat;
     padding: 130px;
   }
+
+  /****** SIGNUP PAGE STYLING *******/
+  #signup-page .row.contain {
+    overflow: hidden;
+    height: 100vh;
+  }
+
+  #signup-page .background {
+		padding: 100px;
+    background-color: #0ca9b0;
+    color: white;
+	}
+
+	#signup-page .background p {
+		font-size: 20px;
+		color: white;
+		font-style: normal;
+    line-height: normal;
+    text-align: center;
+    margin-top: 130px;
+  }
+  
+  #signup-page .background h1 {
+    font-size: 50px;
+		color: white;
+		font-style: normal;
+    text-align: left;
+    margin-top: 180px;
+    font-weight: 600;
+  }
+
+	#signup-page .form-content {
+		padding: 180px 50px 0px 50px;
+  }
+
+  #signup-page .form-content button {
+    background-color: #0ca9b0;
+    height: 50px;
+    border: none;
+  }
+  
+  #signup-page .form-content img {
+    width: 100px;
+  }
+
+	#signup-page .form .form-content input {
+		padding: 20px;
+		font-size: 15px;
+	}
+
+	@media screen and (min-width: 601px) {
+		
+	}
+
+	@media screen and (max-width: 600px) {
+	
+	}
+
+	#signup-page .form .form-content p {
+		color: #223D68;
+		font-size: 14px;
+	}
